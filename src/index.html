@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="image-slider swiper-container">
+        <div class="image-slider__wrapper swiper-wrapper">
+              <!-- <iframe
+                id="vimeo-player"
+                src="https://player.vimeo.com/video/824804225"
+                width="360"
+                height="360"
+                frameborder="0"
+                allowfullscreen
+                allow="autoplay; encrypted-media">
+                </iframe> -->
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                  <img src="./image/img-1.png" alt="">
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                  <img src="./image/img-1.png" alt="" >
+                </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img onclick="videoUrl('https://player.vimeo.com/video/824804225')" src="./image/img-1.png" alt="">
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img onclick="videoUrl('https://player.vimeo.com/video/824804225')" src="./image/img-1.png" alt="">
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img onclick="videoUrl('https://player.vimeo.com/video/824804225')" src="./image/img-1.png" alt="">
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <img onclick="videoUrl('https://player.vimeo.com/video/824804225')" src="./image/img-1.png" alt="">
+                </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img onclick="videoUrl('https://player.vimeo.com/video/824804225')" src="./image/img-1.png" alt="">
+              </div>
+            </div>
+            <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__image">
+                <img onclick="videoUrl('https://player.vimeo.com/video/824804225')" src="./image/img-1.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+    </div>
+
+    <script src="video.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      function videoUrl(url) {
+          document.getElementById("vimeo-player").src = url;
+      }
+    </script>
+  </body>
+</html>
