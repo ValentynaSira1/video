@@ -26,12 +26,31 @@
 // }); 
 
 
-const swiper = new Swiper('.image-slider', {
-    direction: 'vertical',
-    loop: true,
-
+new Swiper('.image-slider', {
+    // loop: true,
+    simulateTouch: true,
+    touchRatio: 1,
+    touchAngle: 45,
+    grabCursor: true,
+   
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+
+    hashNavigation: {
+        watchState: true,
+    },
+
+    mousewheel: {
+        sensitivity: 1,
+        eventsTarget: ".image-slider"
+    },
+
+    slidesPerView: 4,
+    slidesPerGroup: 2,
+    autoHeight: true,
+    spaceBetween: 0,
+
+
 });

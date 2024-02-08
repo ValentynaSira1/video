@@ -16,12 +16,12 @@ body {
 }
 
 .swiper-wrapper{
-  padding: 70px;
   min-height: 100%;
+  align-items: center;
 }
 
 .image-slider{
-  padding: 30px 0 70px 0;
+  padding: 250px 0 220px 0;
 }
 
 .image-slider__image{
@@ -30,4 +30,8 @@ body {
 
 .image-slider__image img {
   max-width: 100%;
+}
+
+.swiper-slide{
+  width: auto;
 }
