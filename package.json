@@ -1,31 +1,32 @@
 {
-    "name":"video2",
-    "version":"2.0.0",
-    "description":"",
-    "homepage":"https://ValentynaSira1.github.io/video2",
-    "scripts":{
-        "start":"parcel src/*.html",
-        "build":"parcel build src/*.html --public-url /video2/"
+    "name": "video2",
+    "version": "2.0.0",
+    "description": "",
+    "homepage": "https://ValentynaSira1.github.io/video2",
+    "scripts": {
+        "start": "parcel src/*.html",
+        "build": "parcel build src/*.html --public-url /video2/"
     },
-    "repository":{
-        "type":"git",
-        "url":"git+https://ValentynaSira1.github.io/video2.git"
+    "repository": {
+        "type": "git",
+        "url": "git+https://ValentynaSira1.github.io/video2.git"
     },
-    "keywords":[],
-    "author":"Valentyna Sira",
-    "license":"ISC",
-    "bugs":{
-        "url":"https://ValentynaSira1.github.io/video2/issues"
+    "keywords": [],
+    "author": "Valentyna Sira",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://ValentynaSira1.github.io/video2/issues"
     },
-    "dependencies":{
-        "@vimeo/player":"^2.21.0",
-        "lodash.throttle":"^4.1.1"
+    "dependencies": {
+        "@vimeo/player": "^2.21.0",
+        "lodash.throttle": "^4.1.1",
+        "swiper": "^11.0.6"
     },
-    "devDependencies":{
-        "@parcel/transformer-sass":"^2.6.0",
-        "parcel":"^2.6.0",
-        "parcel-reporter-clean-dist":"^1.0.4",
-        "posthtml-include":"^1.7.4"
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.6.0",
+        "parcel": "^2.6.0",
+        "parcel-reporter-clean-dist": "^1.0.4",
+        "posthtml-include": "^1.7.4"
     },
-    "browserslist":"> 0.5%, last 2 versions, not dead"
+    "browserslist": "> 0.5%, last 2 versions, not dead"
 }
